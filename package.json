@@ -1,0 +1,12 @@
+{
+  "name": "svelte-coffee",
+  "version": "1.0.0",
+  "description": "## Developing",
+  "scripts": {
+    "install": "npm run install:back && npm run install:front",
+    "install:back": "cd ./backend && npm install",
+    "install:front": "cd ./frontend && npm install",
+    "dev:back": "cd ./backend && npm run dev",
+    "dev:front": "cd ./frontend && npm run dev"
+  }
+}
